@@ -73,8 +73,73 @@ button {
     align-self: flex-end;
 }
 
-.responsive {
+.first-responsive {
     width: 100%;
     max-width: 1000px;
     height: auto;
 }
+
+.second-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 25px;
+}
+
+.art-bar {
+    display: flex;   
+    gap: 150px; 
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.a-i-one,.a-i-two,.a-i-three,.a-i-four {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.second-responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.third-signature {
+    font-size: 18px;
+    padding-left: 740px;
+}
+
+.footer {
+    min-height: 75px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
